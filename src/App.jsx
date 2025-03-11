@@ -15,7 +15,6 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Brittni's Portfolio</h1>
       <Navbar /> 
 
       <Routes>

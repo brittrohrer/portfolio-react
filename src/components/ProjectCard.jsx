@@ -2,7 +2,7 @@
 import React from 'react'
 
 //JS Data
-import { projects } from '../assets/data/project-data'
+import { projects } from '../data/project-data'
 
 
 export function ProjectCard() {

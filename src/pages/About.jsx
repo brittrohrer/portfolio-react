@@ -5,7 +5,7 @@ import React from "react";
 import { SkillsCard } from "../components/SkillsCard";
 
 //JS Data
-import { education } from "../assets/data/education-data";
+import { education } from "../data/education-data";
 
 export default function About() {
     return (
@@ -16,10 +16,10 @@ export default function About() {
                 <div>
                     {education.map(degree => {
                         return (
-                            <>
+                            <div key={degree.school}>
                                 <h3>{degree.school}</h3>
                                 <p>{degree.degree}</p>
-                            </>
+                            </div>
                         )
                     })}
                 </div>

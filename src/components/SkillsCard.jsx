@@ -2,7 +2,7 @@
 import React from 'react'
 
 //JS Data
-import { skills } from '../assets/data/skills-data'
+import { skills } from '../data/skills-data'
 
 export function SkillsCard() {
     return (
