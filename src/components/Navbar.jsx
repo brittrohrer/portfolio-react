@@ -9,7 +9,7 @@ export function Navbar() {
     return (
         <>
             <nav className="navbar-container">
-                <div className="navbar-logo">Logo</div>
+                <div className="navbar-logo">BR</div>
                 <div className="navbar-links">
                     <li className="navbar-item">
                         <NavLink to="/">Home</NavLink>

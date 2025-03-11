@@ -1,4 +1,18 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+.page-header {
+  color: black;
+  font-size: 3rem;
+}
+.section-header {
+  color: black;
+  font-size: 2rem;
+}
+
+.page {
+  margin: 1rem;
+}
