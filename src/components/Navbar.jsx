@@ -9,7 +9,9 @@ export function Navbar() {
     return (
         <>
             <nav className="navbar-container">
-                <div className="navbar-logo">BR</div>
+                <div className="navbar-logo">
+                    <NavLink to="/">BR</NavLink>
+                </div>
                 <div className="navbar-links">
                     <li className="navbar-item">
                         <NavLink to="/">Home</NavLink>

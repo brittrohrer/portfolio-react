@@ -5,12 +5,11 @@ import React from "react"
 import { Hero } from "../components/Hero"
 
 //Style Sheet
-import "../styles/home.css"
+import "../styles/Home.css"
 
 export default function Home() {
     return (
         <div className="page">
-            <h1>Home</h1>
             <Hero />
         </div>
     )

@@ -1,7 +1,7 @@
-.education-container {
-    outline: 5px solid black;
-
+.education-section {
+    color: black;
 }
-.skills-container {
-    outline: 5px solid black;
+.skills-section {
+    color: black;
+    height: 100%;
 }

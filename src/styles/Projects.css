@@ -1,0 +1,7 @@
+.projects-container {
+    outline: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

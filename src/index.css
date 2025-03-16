@@ -4,15 +4,46 @@
   padding: 0;
 }
 
-.page-header {
-  color: black;
-  font-size: 3rem;
-}
-.section-header {
-  color: black;
-  font-size: 2rem;
-}
 
 .page {
-  margin: 1rem;
+  margin: 0;
+}
+.page-header {
+  color: black;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+
+
+.section-container {
+  padding: 1rem 2rem;
+}
+.section-header {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4%;
+
+}
+.flex-container>section {
+  width: 48%;
+}
+
+
+/* Background Colors */
+.bg-em {
+  background-color: #244d4f;
+}
+
+.bg-sg {
+  background-color: #b9dfda;
+}
+
+.bg-cr {
+  background-color: whitesmoke;
 }

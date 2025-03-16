@@ -1,20 +1,21 @@
 //React
 import React from 'react'
 
-//JS Data
-import { projects } from '../data/project-data'
 
+//Style Sheet
+import '../styles/projectcard.css'
 
-export function ProjectCard() {
+export default function ProjectCard({projects}) {
     return (
         <>
-            {projects.map((project, index) => {
+            {projects.map((project) => {
                 return (
-                    <div>
-                        <h3 key={index}>{project.title}</h3>
-                        <p>{project.description}</p>
-                        <p>{project.tools}</p>
-                        <div>
+                    <div className="project-card">
+                        <h3 className="project-name" key={project.title}>{project.title}</h3>
+                        <img className="project-img" src="#" alt="project img description"/>
+                        <p className="project-description">{project.description}</p>
+                        <p className="project-tools">{project.tools}</p>
+                        <div className="project-links-container">
                             <a href={project.live}>Live Site</a>
                             <a href={project.code}>View Code</a>
                         </div>

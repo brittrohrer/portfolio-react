@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 1rem;
 }
 .skill-card {
-    width: 8rem;
     outline: 1px solid black;
+
 }
 .skill-name {
     color: pink;
