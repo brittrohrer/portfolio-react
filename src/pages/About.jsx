@@ -6,6 +6,7 @@ import { SkillsCard } from "../components/SkillsCard";
 
 //JS Data
 import { education, aboutText } from "../data/about-data";
+import { skills } from '../data/skills-data'
 
 //Style Sheet
 import "../styles/About.css"
@@ -43,7 +44,7 @@ export default function About() {
             <div>
                 <section className="skills-section section-container bg-cr">
                         <h2 className="section-header">My Skills</h2>
-                        <SkillsCard />
+                        <SkillsCard skills={skills}/>
                 </section>
             </div>
 

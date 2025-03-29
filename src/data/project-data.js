@@ -1,5 +1,6 @@
 export const projects = [
     {
+        id: "1",
         title:  "Archery Club",
         image:  "/archery.png",
         tools:  ["HTML", 
@@ -11,6 +12,7 @@ export const projects = [
 
     },
     {
+        id: "2",
         title:  "Adopt A Dog",
         image:  "/dogs.png",
         tools:  ["HTML", 
@@ -23,6 +25,7 @@ export const projects = [
 
     },
     {
+        id: "3",
         title:  "Travel Michigan",
         image:  "/mitravel.png",
         tools:  ["Bootstrap", 
@@ -36,6 +39,7 @@ export const projects = [
 
     },
     {
+        id: "4",
         title:  "Family Recipes",
         image:  "/recipes.png",
         tools:  ["Bootstrap", 
@@ -48,6 +52,7 @@ export const projects = [
 
     },
     {
+        id: "5",
         title:  "Netflix Clone",
         image:  "/netflix.png",
         tools:  ["Bootstrap", 

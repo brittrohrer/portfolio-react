@@ -11,7 +11,7 @@ export default function ProjectCard({projects}) {
             {projects.map((project) => {
                 return (
                     <div className="project-card">
-                        <h3 className="project-name" key={project.title}>{project.title}</h3>
+                        <h3 className="project-name" key={project.id}>{project.title}</h3>
                         <img className="project-img" src="#" alt="project img description"/>
                         <p className="project-description">{project.description}</p>
                         <p className="project-tools">{project.tools}</p>
