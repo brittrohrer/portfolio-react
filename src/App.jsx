@@ -1,17 +1,18 @@
 import { useState } from 'react'
 import { Route, Routes } from "react-router-dom"
 
+// Components
 import { Navbar } from "./components/Navbar"
 import { Footer } from './components/Footer'
 
-/* Pages */
+// Pages
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
 
 
-/* Styles */
+// Styles
 import './App.css'
 
 

@@ -2,7 +2,6 @@
 import React from "react";
 
 //Components
-import { SkillsCard } from "../components/SkillsCard";
 
 //JS Data
 import { education, aboutText } from "../data/about-data";
@@ -10,6 +9,7 @@ import { skills } from '../data/skills-data'
 
 //Style Sheet
 import "../styles/About.css"
+import "../styles/skillscard.css"
 
 export default function About() {
     return (
@@ -26,6 +26,9 @@ export default function About() {
                 </section>
             </div>
 
+            {/* Education Section
+                    - display degree from each school
+            */}
             <div>
                 <section className="education-section section-container">
                         <h2 className="section-header">Education</h2>
@@ -41,10 +44,23 @@ export default function About() {
                         </div>
                 </section>
             </div>    
+
+
+            {/* Skills Section
+                    - create container for each coding skill
+            */}
             <div>
                 <section className="skills-section section-container bg-cr">
                         <h2 className="section-header">My Skills</h2>
-                        <SkillsCard skills={skills}/>
+                        <div className="skill-card-container">
+                            {skills.map((skill) => {
+                                return (
+                                    <div className="skill-card">
+                                        <h3 className="skill-name" key={skill.name}>{skill.name}</h3>
+                                    </div>
+                                )
+                            })}
+                    </div>
                 </section>
             </div>
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
-//Styles
+// Styles
 import '../styles/navbar.css'
 
-/* Images */
+// Images 
 import logo from "../assets/logo.png"
 
 export function Navbar() {
