@@ -4,11 +4,14 @@ import { Route, Routes } from "react-router-dom"
 import { Navbar } from "./components/Navbar"
 import { Footer } from './components/Footer'
 
+/* Pages */
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
 
+
+/* Styles */
 import './App.css'
 
 

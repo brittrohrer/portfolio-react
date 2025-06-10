@@ -12,7 +12,7 @@ export default function ProjectCard({projects}) {
                 return (
                     <div className="project-card">
                         <h3 className="project-name" key={project.id}>{project.title}</h3>
-                        <img className="project-img" src="#" alt="project img description"/>
+                        <img className="project-img" src={project.image} alt="image description"/>
                         <p className="project-description">{project.description}</p>
                         <p className="project-tools">{project.tools}</p>
                         <div className="project-links-container">

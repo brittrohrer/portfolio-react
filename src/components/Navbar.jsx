@@ -4,13 +4,18 @@ import { NavLink } from "react-router-dom"
 //Styles
 import '../styles/navbar.css'
 
+/* Images */
+import logo from "../assets/logo.png"
+
 export function Navbar() {
    
     return (
         <>
             <nav className="navbar-container">
                 <div className="navbar-logo">
-                    <NavLink to="/">BR</NavLink>
+                    <NavLink to="/">
+                        <img src={logo} alt="BR logo" />
+                    </NavLink>
                 </div>
                 <div className="navbar-links">
                     <li className="navbar-item">

@@ -1,8 +1,14 @@
+import archery from "../assets/archery.png"
+import dog from "../assets/dogs.png"
+import travel from "../assets/mitravel.png"
+import recipe from "../assets/recipes.png"
+import netflix from "../assets/netflix.png"
+
 export const projects = [
     {
         id: "1",
         title:  "Archery Club",
-        image:  "/archery.png",
+        image:  archery,
         tools:  ["HTML", 
                 "CSS"
                 ],
@@ -14,7 +20,7 @@ export const projects = [
     {
         id: "2",
         title:  "Adopt A Dog",
-        image:  "/dogs.png",
+        image:  dog,
         tools:  ["HTML", 
                 "CSS", 
                 "JavaScript"
@@ -27,7 +33,7 @@ export const projects = [
     {
         id: "3",
         title:  "Travel Michigan",
-        image:  "/mitravel.png",
+        image:  travel,
         tools:  ["Bootstrap", 
                 "SCSS", 
                 "Vue JS/Nuxt",
@@ -41,7 +47,7 @@ export const projects = [
     {
         id: "4",
         title:  "Family Recipes",
-        image:  "/recipes.png",
+        image:  recipe,
         tools:  ["Bootstrap", 
                 "SCSS", 
                 "Vue JS/Nuxt"
@@ -54,7 +60,7 @@ export const projects = [
     {
         id: "5",
         title:  "Netflix Clone",
-        image:  "/netflix.png",
+        image:  netflix,
         tools:  ["Bootstrap", 
                 "SCSS", 
                 "Vue JS/Nuxt",
