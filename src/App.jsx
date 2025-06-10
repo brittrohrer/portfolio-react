@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { Route, Routes } from "react-router-dom"
 
 // Components
-import { Navbar } from "./components/Navbar"
-import { Footer } from './components/Footer'
+import Layout from "./components/Layout"
 
 // Pages
 import Home from './pages/Home'
@@ -19,18 +18,14 @@ import './App.css'
 function App() {
   return (
     <>
-      <Navbar /> 
-
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
       </Routes>
-
-      <Footer />
-      
-      
     </>
   )
 }
