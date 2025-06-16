@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom"
 
 // Components
 import Layout from "./components/Layout"
+import HomeLayout from "./components/HomeLayout"
 
 // Pages
 import Home from './pages/Home'
@@ -22,12 +23,14 @@ function App() {
       - have main layout for all
       - use relative routes */}
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="*" element={<NotFound />} />
+        <Route element={<HomeLayout />}>
+          <Route path="/" element={<Home />} />
         </Route>
+        <Route element={<Layout />}>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   )

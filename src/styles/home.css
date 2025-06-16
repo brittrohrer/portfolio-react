@@ -2,3 +2,6 @@
     background-color: black;
     color: white;
 }
+.hero-statement {
+    min-height: 100vh;
+}
