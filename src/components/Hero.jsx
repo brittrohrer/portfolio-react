@@ -6,7 +6,6 @@ export function Hero() {
             <img src="" alt="hero pic"/>
             <h1>I'm Brittni</h1>
             <p>Descriptions</p>
-            <div>Call to action</div>
         </section>
     )
 }

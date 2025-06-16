@@ -18,6 +18,9 @@ import './App.css'
 function App() {
   return (
     <>
+    {/* Routes Setup 
+      - have main layout for all
+      - use relative routes */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

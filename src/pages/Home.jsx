@@ -9,7 +9,7 @@ import "../styles/Home.css"
 
 export default function Home() {
     return (
-        <div className="page">
+        <div className="home-page">
             <Hero />
         </div>
     )

@@ -18,6 +18,10 @@
     text-decoration: none;
     color: white;
 }
+.navbar-item a.active {
+    color: red;
+}
 .navbar-logo img {
     height: 2rem;
 }
+
