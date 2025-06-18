@@ -13,13 +13,13 @@ export default function Home() {
     return (
         <div className="home-page">
             <Hero />
-            <div className="action-section">
+            <section className="action-section">
                 <a 
                     href={resume}
                     target="blank">
                     View Resume
                 </a>
-            </div>
+            </section>
         </div>
     )
 }
