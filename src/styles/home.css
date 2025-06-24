@@ -1,8 +1,10 @@
 .home-page {
     background-color: black;
     color: white;
+    margin: 0;
     height: 100vh;
     padding: 1rem 10%;
+    display: flex;
 }
 .action-section{
     padding-top: 5%;
@@ -17,4 +19,11 @@
     border-radius: 20px;
     padding: 1rem;
     text-decoration: none;
+}
+.image-shape {
+    height: 500px;
+}
+.hero-img {
+    height: 80vh;
+    object-fit: contain;
 }
