@@ -1,5 +1,6 @@
 .hero-section {
     padding: 1rem 0;
+    max-width: 50%;
 }
 .hero-text {
     font-size: 1rem;
@@ -7,4 +8,10 @@
 
 .hero-name {
     font-size: 4rem;
+}
+
+@media only screen and (width > 550px) {
+    .hero-section {
+        max-width: 70%;
+    }
 }
