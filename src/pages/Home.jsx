@@ -8,7 +8,6 @@ import { Hero } from "../components/Hero"
 import "../styles/Home.css"
 
 import resume from "../assets/Brittni-Rohrer-Resume.pdf"
-import heroImg from "../assets/hero-pic.png"
 
 export default function Home() {
     return (
@@ -22,9 +21,6 @@ export default function Home() {
                         View Resume
                     </a>
                 </section>
-            </div>
-            <div className="image-shape">
-                <img className="hero-img" src={heroImg} />
             </div>
         </div>
     )
