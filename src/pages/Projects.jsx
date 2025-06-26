@@ -13,9 +13,9 @@ import '../styles/Projects.css'
 export default function Projects() {
    
     return (
-        <div className="page">
+        <div className="page-content-container">
             <h1 className="page-header">My Projects</h1>
-            <section className="projects-container section-container bg-em">
+            <section className="projects-container section-container">
                 <ProjectCard projects={projects}/>
             </section>
             <h2 className="section-header">Other Work</h2>

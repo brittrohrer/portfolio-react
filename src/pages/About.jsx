@@ -16,7 +16,7 @@ import "../styles/skillscard.css"
 
 export default function About() {
     return (
-        <div className="page">
+        <div className="page-content-container">
             <h1 className="page-header">About Me</h1>
 
             <div>

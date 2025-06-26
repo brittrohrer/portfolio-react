@@ -16,8 +16,12 @@ export default function ProjectCard({projects}) {
                         <p className="project-description">{project.description}</p>
                         <p className="project-tools">{project.tools}</p>
                         <div className="project-links-container">
-                            <a href={project.live}>Live Site</a>
-                            <a href={project.code}>View Code</a>
+                            <a href={project.live}>
+                                <i class="fa-solid fa-globe project-link"></i>
+                            </a>
+                            <a href={project.code}>
+                                <i class="fa-brands fa-github project-link"></i>
+                            </a>
                         </div>
                     </div>
                     

@@ -7,9 +7,17 @@
     padding: 1rem;
     gap: 1rem;
 
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+.project-img {
+    background-color: black;
 
-    outline: 1px solid black;
 }
 .project-description {
     flex-grow: 1;
+}
+.project-link {
+    color: pink;
 }

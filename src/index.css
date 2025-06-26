@@ -4,9 +4,14 @@
   padding: 0;
 }
 
-
 .page {
-  margin: 5%;
+  background-color: black;
+  margin: 0;
+  color: white;
+}
+
+.page-content-container {
+  margin: 0 5%;
 }
 .page-header {
   color: black;

@@ -26,12 +26,12 @@ export default function Home() {
                         <a
                             href=""
                             target="blank">
-                            <i className="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github social-link"></i>
                         </a>
                         <a
                             href=""
                             target="blank">
-                            <i className="fa-brands fa-linkedin"></i>
+                            <i className="fa-brands fa-linkedin social-link"></i>
                         </a>
                     </div>
                 </section>
