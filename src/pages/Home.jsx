@@ -15,11 +15,25 @@ export default function Home() {
             <div>
                 <Hero />
                 <section className="action-section">
-                    <a
-                        href={resume}
-                        target="blank">
-                        View Resume
-                    </a>
+                    <div className="resume-container">
+                        <a
+                            href={resume}
+                            target="blank">
+                            View Resume
+                        </a>
+                    </div>
+                    <div className="social-links-container">
+                        <a
+                            href=""
+                            target="blank">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
+                        <a
+                            href=""
+                            target="blank">
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
                 </section>
             </div>
         </div>

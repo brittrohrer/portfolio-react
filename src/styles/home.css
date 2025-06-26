@@ -16,8 +16,11 @@
 }
 .action-section{
     padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
-.action-section a{
+.resume-container a{
     border: none;
     outline: none;
     color: white;
@@ -28,7 +31,12 @@
     border-radius: 15px;
     padding: 1rem;
     text-decoration: none;
-
+}
+.social-links-container {
+    display: flex;
+}
+.fa-brands {
+    color: white;
 }
 
 @media only screen and (width > 550px) {
