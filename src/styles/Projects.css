@@ -1,6 +1,9 @@
 .projects-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+}
+@media only screen and (width > 550px) {
+    
 }

@@ -5,7 +5,7 @@
 }
 
 .page {
-  background-color: black;
+  background-color: rgb(10, 10, 10);
   margin: 0;
   color: white;
 }
@@ -14,7 +14,7 @@
   margin: 0 5%;
 }
 .page-header {
-  color: black;
+  color: whitesmoke;
   font-size: 2rem;
   padding: 1rem 2rem;
 }

@@ -14,12 +14,18 @@ export default function ProjectCard({projects}) {
                         <h3 className="project-name" key={project.id}>{project.title}</h3>
                         <img className="project-img" src={project.image} alt="image description"/>
                         <p className="project-description">{project.description}</p>
-                        <p className="project-tools">{project.tools}</p>
+                        <div className="project-tool-container">
+                            {project.tools.map((tool) => {
+                                return (
+                                    <p className="project-tool-item">{tool}</p>
+                                )
+                            })}
+                        </div>
                         <div className="project-links-container">
-                            <a href={project.live}>
+                            <a href={project.live} aria-label="View live website">
                                 <i class="fa-solid fa-globe project-link"></i>
                             </a>
-                            <a href={project.code}>
+                            <a href={project.code} aria-label="View code on github">
                                 <i class="fa-brands fa-github project-link"></i>
                             </a>
                         </div>

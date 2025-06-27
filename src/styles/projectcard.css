@@ -1,23 +1,41 @@
 .project-card {
-    max-width: 25%;
-    min-width: 14rem;
+    max-width: 80%;
+    min-width: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
     gap: 1rem;
-
-    background-color: black;
-    box-shadow: 0 0 10px white;
+    background-color: rgb(30, 30, 30);
     border-radius: 10px;
 }
 .project-img {
     background-color: black;
-
+    aspect-ratio: 1 / 1;
 }
 .project-description {
     flex-grow: 1;
 }
+.project-tool-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.project-tool-item {
+    background-color: teal;
+    padding: .3rem .8rem;
+    border-radius: 5px;
+}
+
 .project-link {
+    font-size: 1.5rem;
     color: pink;
+    padding: 1rem 1rem 1rem 0;
+}
+@media only screen and (width > 550px) {
+    .project-card {
+        max-width: 20rem;
+
+    }
 }
