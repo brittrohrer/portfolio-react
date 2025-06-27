@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(30, 30, 30);
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     padding: 1rem;
 }
@@ -10,9 +10,8 @@
 .navbar-links {
     list-style-type: none;
     display: flex;
-    width: 10rem;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 4rem;
 }
 .navbar-item a {
     text-decoration: none;
