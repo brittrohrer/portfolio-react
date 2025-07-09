@@ -34,6 +34,12 @@ export default function Home() {
                             <i className="fa-brands fa-linkedin social-link"></i>
                         </a>
                     </div>
+                    <div>
+                        <p>
+                            <i className="fa-regular fa-envelope social-link"></i>
+                            brittnirohrer@gmail.com
+                        </p>
+                    </div>
                 </section>
             </div>
         </div>

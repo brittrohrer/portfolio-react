@@ -2,7 +2,7 @@ import archery from "../assets/archery.png"
 import dog from "../assets/dogs.png"
 import travel from "../assets/mitravel.png"
 import recipe from "../assets/recipes.png"
-import netflix from "../assets/netflix.png"
+import netflix from "../assets/netflix-2.png"
 
 export const projects = [
     {
@@ -35,9 +35,9 @@ export const projects = [
         title:  "Travel Michigan",
         image:  travel,
         tools:  ["Bootstrap", 
-                "SCSS", 
-                "Vue JS/Nuxt",
-                "API"
+                "SCSS",
+                "API", 
+                "Vue"
                 ],
         description: "A course long project for users of the site to learn about Michigan and why to travel there. ",
         code:   "https://github.com/brittrohrer/course-project",
@@ -50,7 +50,7 @@ export const projects = [
         image:  recipe,
         tools:  ["Bootstrap", 
                 "SCSS", 
-                "Vue JS/Nuxt"
+                "Vue"
                 ],
         description:    "A personal project that takes our handwritten recipes and gathers them to a single location for everyone in our family to easlily access. ",
         code:   "https://github.com/brittrohrer/family-recipes",
@@ -63,7 +63,7 @@ export const projects = [
         image:  netflix,
         tools:  ["Bootstrap", 
                 "SCSS", 
-                "Vue JS/Nuxt",
+                "Vue",
                 "JavaScript"
                 ],
         description:    "A replica of a popular streaming service's desktop version website.  ",
