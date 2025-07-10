@@ -1,0 +1,32 @@
+.footer {
+    color: whitesmoke;
+    background: rgb(26, 26, 26);
+
+    padding: 2rem;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-icon {
+    padding-right: .5rem
+}
+.footer-resume-link {
+    color: pink;
+}
+.footer-link {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.copyright-footer {
+    margin: 0;
+}
