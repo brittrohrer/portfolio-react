@@ -1,10 +1,12 @@
+.profile-section {
+    background-color: rgb(30, 30, 30);
+}
 .profile-image {
     height: 10rem;
 }
 .education-section {
-    color: black;
+    color: whitesmoke;
 }
 .skills-section {
-    color: black;
-    height: 100%;
+    color: whitesmoke;
 }
