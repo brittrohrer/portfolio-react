@@ -1,7 +1,7 @@
-import archery from "../assets/archery.png"
-import dog from "../assets/dogs.png"
-import travel from "../assets/mitravel.png"
-import recipe from "../assets/recipes.png"
+import archery from "../assets/archery-2.png"
+import dog from "../assets/dogs-2.png"
+import travel from "../assets/mitravel-2.png"
+import recipe from "../assets/recipes-2.png"
 import netflix from "../assets/netflix-2.png"
 
 export const projects = [
