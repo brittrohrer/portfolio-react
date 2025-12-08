@@ -4,6 +4,10 @@ export const skills = [
     logo: "fa-brands fa-react skill-logo"
 },
 {
+    name: "Tailwind",
+    logo: ""
+},
+{
     name: "Vue",
     logo: "fa-brands fa-vuejs skill-logo"
 },
