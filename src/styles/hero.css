@@ -1,10 +1,20 @@
 .hero-section {
     padding: 1rem 0;
-    max-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.hero-img {
+    display: none;
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    border-radius: 5px;
 }
 .hero-text {
     font-size: 1rem;
 }
+
 
 .hero-name {
     font-size: 4rem;
@@ -12,6 +22,13 @@
 
 @media only screen and (width > 550px) {
     .hero-section {
-        max-width: 70%;
+        flex-direction: row;
+        justify-content: space-between;
     }
+    .hero-img{
+        display: block;
+        width: 20rem;
+        height: 20rem;
+    }
+    
 }
