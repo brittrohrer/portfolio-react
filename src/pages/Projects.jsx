@@ -8,7 +8,7 @@ import ProjectCard from '../components/ProjectCard'
 import { projects } from '../data/project-data'
 
 //Style Sheet
-import '../styles/projects.css'
+//import '../styles/projects.css'
 
 export default function Projects() {
    
