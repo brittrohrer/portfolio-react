@@ -18,7 +18,7 @@ export default function Home() {
                         <a
                             href={resume}
                             target="blank">
-                            View Resume
+                            View Resume!
                         </a>
                     </div>
                     <div className='connect-section'>
