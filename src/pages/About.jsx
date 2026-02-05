@@ -11,7 +11,7 @@ import { skills } from '../data/skills-data'
 import profileImage from "../assets/head-pic2.jpg"
 
 //Style Sheet
-import "../styles/About.css"
+import "../styles/about.css"
 import "../styles/skillscard.css"
 
 export default function About() {
