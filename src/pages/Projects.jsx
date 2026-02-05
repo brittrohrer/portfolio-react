@@ -8,7 +8,6 @@ import ProjectCard from '../components/ProjectCard'
 import { projects } from '../data/project-data'
 
 //Style Sheet
-import '../styles/projects'
 
 export default function Projects() {
    
