@@ -24,12 +24,12 @@ export default function Home() {
                     <div className='connect-section'>
                         <div className="social-links-container">
                             <a
-                                href=""
+                                href="https://github.com/brittrohrer"
                                 target="blank">
                                 <i className="fa-brands fa-github social-link"></i>
                             </a>
                             <a
-                                href=""
+                                href="https://www.linkedin.com/in/brittni-rohrer-3183212b6/"
                                 target="blank">
                                 <i className="fa-brands fa-linkedin social-link"></i>
                             </a>
