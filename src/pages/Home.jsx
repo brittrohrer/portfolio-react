@@ -5,7 +5,7 @@ import React from "react"
 import { Hero } from "../components/Hero"
 
 //Style Sheet
-import "../styles/Home.css"
+import "../styles/home.css"
 
 import resume from "../assets/Brittni-Rohrer-Resume.pdf"
 
